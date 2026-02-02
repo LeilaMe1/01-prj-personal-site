@@ -1,1 +1,93 @@
 /* Add you CSS here */
+body {
+	color: indigo;
+	background: lavenderblush;
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+h3 {
+	background: linear-gradient(90deg, lightgoldenrodyellow, pink);
+	padding: 10px;
+}
+
+.hero {
+	background: lightblue url(img/flower.PNG) right no-repeat;
+	background-size: 250px;
+	padding: 10px;
+	text-align: center;
+}
+.hero h1 {
+	display: inline;
+}
+.hero h1 img {
+	height: 100px;
+	width: auto;
+}
+.hero h2 {
+	color: mediumslateblue;
+}
+.hero li {
+	display: inline;
+	margin: 10px;
+}
+.hero ul {
+	padding-inline-start: 0px;
+}
+
+p {
+	padding: 10px;
+}
+
+.about_me {
+	display: table;
+}
+.about_me p, .about_me img {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+.about_me img {
+	height: 100px;
+}
+
+.projects li, .skills li {
+	display: inline;
+}
+.projects ul, .skills ol {
+	padding-inline-start: 0px;
+	padding: 20px 0px;
+}
+.project {
+	display: inline;
+	background: lightblue;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.interest {	
+	display: table-cell;
+	border: 3px solid green;
+	padding: 0 20px;
+	width: 50%;
+	margin: 10px;
+}
+.interests {
+	display: table;
+	margin-bottom: 10px;
+}
+.interest img {
+	height: 100px;
+	width: auto;
+}
+
+header, footer {
+	background-color: mediumslateblue;
+	padding: 10px;
+}
+footer {
+	text-align: center;
+}
+footer img {
+	border-radius: 40px;
+	height: 100px;
+}
+
